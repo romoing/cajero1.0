@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/homeStyles.css">
+    <script defer src="./controllers/home.js"></script>
+    <title>Document</title>
+</head>
+
+
+<body>
+ 
+    
+    
+   
+    <section>
+
+        <div id="cajero1" class="datos1">
+            <h3 id="welcome" class="titulo"> </h3>
+            <!-- <h2> tu saldo es </h2>  -->
+            <h5 id="numero"></h5>
+
+            
+    <input type="number" placeholder="Escribe la cantidad " id="cantidadtxt"  >                                                                           
+    <input type="button" name="Depositar" value="Depositar" onclick="number();" >
+
+    <input type="number" placeholder="Escribe la cantidad a retirar " id="cantidadretiro" value="0" >
+    <input type="button" name="Retirar" value="Retirar" onclick="number2();">
+ 
+    <input type="button" name="consulta" value="consulta saldo" onclick="number3();">
+
+    
+        </div>
+      </section>
+                <hr>
+                <br>
+        <!--         <input type="button" name="logoutButton" value="cerrar sesion" onclick="number4();"> -->
+
+              <button id="logoutButton"> Cerrar sesión </button>
+
+</body>
+</html>
